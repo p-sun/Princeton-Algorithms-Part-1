@@ -56,7 +56,7 @@ public class Percolation {
             	combineFlags(i, j, 0, length);            	
             	uf.union(0, id(i, j));
             }  
-            // Connect to all 4 adjacent grids ----------------
+            // Connect to all 4 adjacent grids ---------------
             if (i > 1 && (grid[i-1][j] & 1) == 1) { // TOP of [i][j] if it's open
             	//System.out.println("top");
 
